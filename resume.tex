@@ -1,80 +1,50 @@
 % !TEX program = xelatex
 
 \documentclass{resume}
-%\usepackage{zh_CN-Adobefonts_external} % Simplified Chinese Support using external fonts (./fonts/zh_CN-Adobe/)
-%\usepackage{zh_CN-Adobefonts_internal} % Simplified Chinese Support using system fonts
 
 \begin{document}
-\pagenumbering{gobble} % suppress displaying page number
+\pagenumbering{gobble}
 
-\name{Bin Yuan}
+\name{杨凡}
 
 \basicInfo{
-  \email{yuanbin2014@gmail.com} \textperiodcentered\ 
-  \phone{(+86) 131-221-87xxx} \textperiodcentered\ 
-  \linkedin[billryan8]{https://www.linkedin.com/in/billryan8}}
+  \phone{191-3750-0187}}
 
 \section{\faGraduationCap\ Education}
-\datedsubsection{\textbf{Shanghai Jiao Tong University (SJTU)}, Shanghai, China}{2013 -- Present}
-\textit{Master student} in Electronics Engineering (EE), expected March 2016
-\datedsubsection{\textbf{Xidian University}, Shaanxi, China}{2009 -- 2013}
-\textit{B.S.} in Electronics Engineering (EE)
+\datedsubsection{\textbf{郑州大学}, 河南郑州}{2022.09 -- 2026.06}
+\textit{本科} in 计算机科学与技术
 
-\section{\faUsers\ Experience}
-\datedsubsection{\textbf{FLAG Inc.} California, America}{2012 -- Present}
-\role{Summer Intern}{Manager: xxx}
-Brief introduction: xxx.
+\section{\faUsers\ Projects}
+
+\datedsubsection{\textbf{企业级外卖订餐系统}}{2024.03 -- 2024.06}
+\role{Java, Spring Boot, MySQL, Redis}{个人项目}
 \begin{itemize}
-  \item Implemented xxx feature
-  \item Optimized xxx 5\%
-  \item xxx
+  \item 采用前后端分离架构，负责后端 API 设计与实现
+  \item 基于 Redis 实现缓存优化，提升接口响应速度 30\%
+  \item 使用 MySQL 分表策略应对高并发场景
 \end{itemize}
 
-\datedsubsection{\textbf{xxx Projects}}{Jan. 2015 -- Present}
-\role{C, Python, Django, Linux}{Individual Projects, collaborated with xxx}
-Brief introduction: xxx
+\datedsubsection{\textbf{本地生活点评平台}}{2024.09 -- 2024.12}
+\role{Java, Spring MVC, MyBatis Plus, ES}{个人项目}
 \begin{itemize}
-  \item Implemented xxx feature
-  \item Optimized xxx 5\%
-  \item xxx
+  \item 实现用户注册登录、商家展示、评论管理等功能
+  \item 集成 Elasticsearch 实现关键词搜索与高亮展示
+  \item 采用 JWT 实现身份认证与权限控制
 \end{itemize}
-
-\datedsubsection{\textbf{\LaTeX\ résumé template}}{May. 2015 -- Present}
-\role{\LaTeX, Maintainer}{Individual Projects}
-An elegant \LaTeX\ résumé template, https://github.com/billryan/resume
-\begin{itemize}
-  \item Easy to be further customized or extended
-  \item Full support for unicode characters (e.g. CJK) with \XeLaTeX\
-  \item FontAwesome 4.5.0 support
-\end{itemize}
-
-% Reference Test
-%\datedsubsection{\textbf{Paper Title\cite{zaharia2012resilient}}}{May. 2015}
-%An xxx optimized for xxx\cite{verma2015large}
-%\begin{itemize}
-%  \item main contribution
-%\end{itemize}
 
 \section{\faCogs\ Skills}
 \begin{itemize}[parsep=0.5ex]
-  \item Programming Languages: C == Python > C++ > Java
-  \item Platform: Linux
-  \item Development: Web, xxx
+  \item \textbf{Java 基础:} 熟悉集合/IO/反射、面向对象设计；具备良好的编码规范与单元测试意识
+  \item \textbf{并发与 JVM:} 理解 JMM、线程池、锁与并发容器；熟悉 JVM 内存模型、GC 及常见性能排查思路
+  \item \textbf{框架与微服务:} 熟悉 Spring Boot 常用组件与 AOP/事务；了解 Spring Cloud 体系（Gateway、Feign、Nacos 等）
+  \item \textbf{中间件与数据库:} 熟悉 MySQL 索引与事务隔离；熟练使用 Redis（Lua 脚本、分布式锁等）；了解 RocketMQ 消息模型
+  \item \textbf{工程化:} 熟悉 Git 协作与代码评审；具备表结构设计、接口文档编写与问题定位能力
 \end{itemize}
-
-\section{\faHeartO\ Honors and Awards}
-\datedline{\textit{\nth{1} Prize}, Award on xxx }{Jun. 2013}
-\datedline{Other awards}{2015}
 
 \section{\faInfo\ Miscellaneous}
 \begin{itemize}[parsep=0.5ex]
-  \item Blog: http://your.blog.me
-  \item GitHub: https://github.com/username
-  \item Languages: English - Fluent, Mandarin - Native speaker
+  \item GitHub: https://github.com/你的用户名
+  \item Language: Mandarin - Native speaker
 \end{itemize}
 
-%% Reference
-%\newpage
-%\bibliographystyle{IEEETran}
-%\bibliography{mycite}
 \end{document}
